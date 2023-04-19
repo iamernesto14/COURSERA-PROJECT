@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    font-size: 16px;
+    font-family: 'oxygen', sans-serif;
+    background-color: #fff;
+}
+
+/*** HEADER ***/
+#header-nav {
+    border-radius: 0;
+    background-color: #f6b319;
+    border: 0;
+    /* height: 70px; */
+}
+
+h1 {
+    margin-top: 0;
+    color: #ffffff;
+    font-family: 'lora', sans-serif;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+
+#nav-list li:hover, #nav-list li:focus {
+    background-color: #f6b319;
+}
+
+/*** MAIN-CONTENT ***/
+/* #main-content {
+    margin: 0 16px;
+} */
+
+.menu-items {
+    padding: 10px 24px;
+    margin-bottom: 20px;
+    background-color: #f6b319;
+}
+
+#main-content h2 {
+    margin-bottom: 30px;
+}
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    #collapsable-nav {
+        background-color: #fff;
+        border: 2px solid #f6b319;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
